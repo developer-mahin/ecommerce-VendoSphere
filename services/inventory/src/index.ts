@@ -29,5 +29,5 @@ const port = process.env.PORT || 4002;
 const serviceName = process.env.SERVICE_NAME || "Inventory-Service";
 
 app.listen(port, () => {
-  console.log(`${serviceName} is running on port ${port}`);
+  console.log(`${serviceName} is running on port http://localhost:${port}`);
 });
